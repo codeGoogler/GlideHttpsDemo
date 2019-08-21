@@ -13,6 +13,9 @@ import com.bumptech.glide.module.GlideModule;
 
 import java.io.InputStream;
 
+/**
+ * * {@link com.bumptech.glide.module.AppGlideModule}. 无法正确被加载到glide的证书验证中,需要到源码中看具体的代码,再活干完以后处理
+ */
 public class MyAppGlideModel implements GlideModule {
 
     @Override
